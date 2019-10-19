@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Nanum+Gothic|Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" href="sfavicon.ico">
+      <title>Personal Data</title>
+    <style>
+      body
+      {
+        background-image: url("nature2.jpg");
+        background-repeat: no-repeat;
+        background-size: 1550px 780px;
+      }
+      #mainbox
+      {
+        border:1px solid white;
+        box-shadow: 5px 2px 5px 5px white,-5px -2px 5px 5px white;
+        width:350px;
+        height:400px;
+        margin-left: 40%;
+        margin-top: 7%;
+      }
+      legend
+      {
+        text-align: center;
+        font-size: 24px;
+        text-decoration: underline;
+        padding-bottom: 50px;
+        margin-top:10px;
+        font-family: 'Nanum Gothic', sans-serif;
+      }
+      label
+      {
+        font-size: 15px;
+        width:35px;
+        font-family: 'Nunito Sans', sans-serif;
+      }
+      input
+      {
+        background-color: #01d28e;
+      }
+      #space
+      {
+        margin-bottom: 15px;
+        height:25px;
+        width:165px;
+      }
+      .myButton {
+	box-shadow: 0px 10px 14px -7px #3dc21b;
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:8px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  margin-left: 130px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+    </style>
+  </head>
+  <body>
+    <div id="mainbox">
+        <legend>PERSONAL DATA</legend>
+        <label id="x"> Username : </label>
+               <input id="space" type="text" name="username" value="" style="margin-left: 28px;">
+       <br>
+       <label id="x">Password : </label>
+              <input id="space" type="password" name="" value="" style="margin-left: 29px;">
+       <br>
+       <label id="x">Email-id : </label>
+         <input id="space" type="Email" name="" value="" style="margin-left: 40px;">
+
+       <br>
+       <label> Your Branch :<br>
+       </label>
+       <input type="radio" name="submit" value="">IT
+       <input type="radio" name="submit" value="">CSE
+       <input type="radio" name="submit" value="">ECE
+       <input type="radio" name="submit" value="">None
+       <br>
+       <br>
+      <label>Are you Student :</label>
+      <br>
+      <input type="checkbox" name="student" value=""> Yes
+      <input type="checkbox" name="student" value=""> No
+      <br>
+      <a href="#" class="myButton">submit</a>
+    </div>
+  </body>
+</html>
